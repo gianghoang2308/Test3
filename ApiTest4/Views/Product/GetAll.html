@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Danh sách sản phẩm từ API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        a {
+            margin: 0 5px;
+            cursor: pointer;
+            text-decoration: none;
+            color: blue;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <h2>Danh sách sản phẩm</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên</th>
+                <th>Giá</th>
+                <th>Ảnh</th>
+                <th>Danh mục</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody id="productTable">
+            <tr><td colspan="6">Đang tải dữ liệu...</td></tr>
+        </tbody>
+    </table>
+
+    <script>
+        // Hàm tải sản phẩm với fetch và catch
+        function loadProducts() {
+            fetch('/api/product') // nếu host khác, dùng full URL
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Lỗi tải dữ liệu');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const tbody = document.getElementById('productTable');
+                    tbody.innerHTML = ''; // Xoá dòng "Đang tải..."
+
+                    data.forEach(product => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                                <td>${product.id}</td>
+                                <td>${product.name}</td>
+                                <td>${product.price}</td>
+                                <td>${product.image ? `<img src="/uploads/images/${product.image}" title="${product.name}" alt="${product.name}" />` : ''}</td>
+                                <td>${product.category?.name ?? 'Không có'}</td>
+                                <td>
+                                    <a onclick="editProduct(${product.id}) && return confirm('Ban co muon sua san pham')">Sửa</a>
+                                    <a onclick="deleteProduct(${product.id})">Xóa</a>
+                                </td>
+                            `;
+                        tbody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    const tbody = document.getElementById('productTable');
+                    tbody.innerHTML = `<tr><td colspan="6">Lỗi khi tải dữ liệu: ${error.message}</td></tr>`;
+                });
+        }
+
+        // Hàm sửa sản phẩm
+        function editProduct(productId) {
+            alert(`Chức năng sửa sản phẩm với ID: ${productId} chưa được triển khai.`);
+            // Bạn có thể thêm logic sửa tại đây (ví dụ: redirect tới trang chỉnh sửa sản phẩm)
+        }
+
+        // Hàm xóa sản phẩm với fetch và catch
+        function deleteProduct(productId) {
+            const confirmDelete = confirm('Bạn có chắc muốn xóa sản phẩm này?');
+            if (confirmDelete) {
+                fetch(`/api/product/${productId}`, {
+                    method: 'DELETE'
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Có lỗi xảy ra khi xóa sản phẩm!');
+                        }
+                        alert('Sản phẩm đã được xóa!');
+                        loadProducts(); // Reload lại danh sách sản phẩm
+                    })
+                    .catch(error => {
+                        alert('Lỗi khi xóa sản phẩm: ' + error.message);
+                    });
+            }
+        }
+
+        // Load dữ liệu khi trang được tải
+        loadProducts();
+    </script>
+</body>
+</html>

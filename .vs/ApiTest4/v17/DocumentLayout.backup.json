@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\views\\product\\getall.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\views\\product\\getall.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\views\\product\\getbyid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\views\\product\\getbyid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\models\\mymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\models\\mymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|d:\\users\\giangnguyen\\asp.net\\apitest4\\apitest4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73F5229-DC0A-472F-B4AC-7B499D576E95}|ApiTest4\\ApiTest4.csproj|solutionrelative:apitest4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetById.html",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Views\\Product\\GetById.html",
+              "RelativeDocumentMoniker": "ApiTest4\\Views\\Product\\GetById.html",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Views\\Product\\GetById.html",
+              "RelativeToolTip": "ApiTest4\\Views\\Product\\GetById.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-05T07:55:13.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAll.html",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Views\\Product\\GetAll.html",
+              "RelativeDocumentMoniker": "ApiTest4\\Views\\Product\\GetAll.html",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Views\\Product\\GetAll.html",
+              "RelativeToolTip": "ApiTest4\\Views\\Product\\GetAll.html",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFUAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-05T07:00:14.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiTest4\\appsettings.json",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\appsettings.json",
+              "RelativeToolTip": "ApiTest4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T04:53:33.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Program.cs",
+              "RelativeDocumentMoniker": "ApiTest4\\Program.cs",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Program.cs",
+              "RelativeToolTip": "ApiTest4\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:53:13.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ApiTest4\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ApiTest4\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:51:56.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiTest4\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiTest4\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T04:45:39.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ApiTest4\\Models\\Category.cs",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Models\\Category.cs",
+              "RelativeToolTip": "ApiTest4\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:45:58.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ApiTest4\\Models\\Product.cs",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Models\\Product.cs",
+              "RelativeToolTip": "ApiTest4\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:50:38.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ApiTest4\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ApiTest4\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:51:43.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyManagementContext.cs",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Models\\MyManagementContext.cs",
+              "RelativeDocumentMoniker": "ApiTest4\\Models\\MyManagementContext.cs",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Models\\MyManagementContext.cs",
+              "RelativeToolTip": "ApiTest4\\Models\\MyManagementContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:45:47.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ApiTest4\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Users\\GiangNguyen\\asp.net\\ApiTest4\\ApiTest4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ApiTest4\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:51:31.609Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
